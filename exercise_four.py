@@ -12,9 +12,12 @@ def remove_characters (original_string,n):
         return result
 
 # Define original string 
-original_string = "programming"
+original_string = "Programming Logic and Design"
 
-# Remove first seven characters from the original string 
-print (remove_characters(original_string,7))
+# Remove first twelve characters from the original string 
+print (remove_characters(original_string,12))
 
-# Remove first ten characters from the original string 
+# Remove first twenty-two characters from the original string 
+print (remove_characters(original_string,22))
+
+# Remove more characters than the original string's length 
