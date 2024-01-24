@@ -10,6 +10,7 @@ def remove_characters (original_string,n):
     if n < len (original_string): 
         result = original_string [n:]
         return result
+    else: return None
 
 # Define original string 
 original_string = "Programming Logic and Design"
@@ -21,3 +22,5 @@ print (remove_characters(original_string,12))
 print (remove_characters(original_string,22))
 
 # Remove more characters than the original string's length 
+print (remove_characters(original_string,29))
+
